@@ -1,0 +1,57 @@
+
+
+.name
+{
+	color: orange;
+}
+
+*
+{
+	font-family: arial; 
+}
+
+h1
+{
+	font-style: normal;
+}
+
+img
+{
+	border: 1px black solid;
+	box-shadow: 0px 0px 2px black;
+}
+
+#gauche
+{
+    margin-right: 3%;
+	background:orange;
+	height: 100%;
+}
+
+
+#content
+{
+	height:100%;
+    width: 85%;
+}
+
+#gauche, #content
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+td
+{
+	background-color: grey;
+	color: orange;
+	width: 100px;
+}
+
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 2%;
+}
