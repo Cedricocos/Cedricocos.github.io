@@ -4,9 +4,9 @@
 	width: 900px;
 	display: flex;
 	flex-wrap: nowrap;
-	border: 2px;
+	border: 1px;
 	border-style: solid;
-	border-color: black;
+	border-color: grey;
 }
 
 #gauche
@@ -23,7 +23,6 @@
 .pimg
 {
 	text-align: center;
-	margin-bottom: 
 }
 
 .img
@@ -31,13 +30,15 @@
 	border-radius: 100%;
 	width: 50%;
 	margin-top: 15px;
+	border: 1px black solid;
+	box-shadow: 0px 0px 2px black;
 }
 
 .titregauche
 {
 	text-align: center;
 	color: #feca07;
-	background-color: grey;
+	background-color: #404040;
 	display: block;
 	line-height: 30px;
 	font-size: 18px;
@@ -53,40 +54,41 @@
 .name
 {
 	color: orange;
+	margin-left: 25px;
 }
 
+.contact
+{
+	font-size: 11px;
+	margin-left: 25px;
+}
 
+.aboutme
+{
+	font-size: 11px;
+	margin-left: 25px;
+}
+
+#loisirs
+{
+	display: flex;
+	align-items: flex-end;
+
+}
+
+.icon
+{
+	
+}
 
 h1
 {
-	font-style: normal;
+	font-weight: normal;
 }
 
-img
+h2
 {
-	border: 1px black solid;
-	box-shadow: 0px 0px 2px black;
-}
-
-li
-{
-	font-size: smaller;
-}
-
-#ul
-{
-		list-style: none;
-}
-
-
-
-
-
-td
-{
-	background-color: grey;
-	color: orange;
-	width: 100px;
+	font-size: 20px;
 }
 
 section
