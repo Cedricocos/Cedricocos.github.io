@@ -7,6 +7,7 @@
 	border: 1px;
 	border-style: solid;
 	border-color: grey;
+	height: 100vh;
 }
 
 #gauche
@@ -16,11 +17,10 @@
 	display: flex;
     flex-direction: column;
     align-content: center;
-    width: 250px;
-    height: 1000px;
+    width: 30%;
 }
 
-.pimg
+.photo
 {
 	text-align: center;
 }
@@ -71,14 +71,14 @@
 
 #loisirs
 {
-	display: flex;
-	align-items: flex-end;
-
+	width: 100%;
+	position: relative;
+	bottom: 0px;
 }
 
 .icon
 {
-	
+	height: 50px;
 }
 
 h1
@@ -91,9 +91,26 @@ h2
 	font-size: 20px;
 }
 
-section
+.section
 {
     display: inline-block;
     vertical-align: top;
     margin-right: 2%;
+}
+
+.line
+{
+	background-color: #feca07;
+	height: 1px;
+	color: white;
+}
+
+.date
+{
+	font-size: 12px;
+}
+
+#loisirs section {
+    display: flex;
+    justify-content: space-between;
 }

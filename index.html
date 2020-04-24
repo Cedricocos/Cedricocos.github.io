@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="https://kit.fontawesome.com/3a8580db81.js" crossorigin="anonymous"></script>
 		<meta charset="utf-8" />
 		<title>Cédric Olivry</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		<div id="cv">
-			<div id="gauche">
+			<aside id="gauche">
 
-				<p class="pimg">
+				<section class="photo">
 					<img src="anonyme.jpg" alt="Photo d'identité" class="img" />
-				</p>
+				</section>
 				
-				<p class="titregauche">CONTACT</p>
+				<section>
+					<p class="titregauche">CONTACT</p>
 
-				<p class="contact">
-					Adresse<br>
-					Notre-Dame-Des-Landes, France<br><br>
-					Téléphone<br>
-					06 44 90 43 29<br><br>
-					Email<br>
-					cedric.olivry@sfr.fr
-				</p>
-
-				<p class="titregauche"><strong>A PROPOS DE MOI</strong></p>
-				<p class="aboutme">Lorem Ipsum</p>
-				
-				
+					<p class="contact">
+						Adresse<br>
+						Notre-Dame-Des-Landes, France<br><br>
+						Téléphone<br>
+						06 44 90 43 29<br><br>
+						Email<br>
+						cedric.olivry@sfr.fr
+					</p>
+				</section>
 
 				<section>
-					<p class="titregauche" id="loisirs">LOISIRS</p>
-					<img src="gamepad-solid.svg" class="icon">
+					<p class="titregauche"><strong>A PROPOS DE MOI</strong></p>
+					<p class="aboutme">Passionné par le développement informatique, je suis prêt à me donner le meilleur de moi-même et répondre à vos attentes.</p>
 				</section>
-			</div>
+				
+
+				<section id="loisirs">
+					<p class="titregauche">LOISIRS</p>
+					<section>
+						<img src="svg/gamepad-solid.svg" class="icon">
+						<img src="svg/book-reader-solid.svg" class="icon">
+						<img src="svg/dumbbell-solid.svg" class="icon">
+					</section>
+				</section>
+
+			</aside>
 
 
 			<div id="contenu">
@@ -41,30 +50,67 @@
 				<h1><span class="name">CÉDRIC</span> OLIVRY<br><p>Developpeur web freelance</p></h1>
 				
 
-				<section>
-					<h2>FORMATION</h2>
-						<ul>
-							<li><strong>Mars 2020 à Maintenant</strong> : Formation Développeur Web sur OpenClassrooms</li>
-							<li><strong>2018-2019</strong> : Formation IT START à IMIE Nantes</li>
-							<li><strong>2015-2018</strong> : Bac Pro Electrotechnique à St-Joseph La Salle</li>
-						</ul>
+				<section class="section">
+					<h2><img src="svg/graduation-cap-solid.svg" class="icon"> FORMATION</h2>
+					<p class="line">.</p>
+						<table>
+							<tr>
+								<td class="date">Mars 2020 à Maintenant<br>Domicile</td>
+								<td><strong>OPENCLASSROOMS</strong><br>
+								Developpeur Web Junior</td>
+							</tr>
+							<tr>
+								<td class="date">2018-2019<br>Nantes</td>
+								<td><strong>IMIE NANTES</strong><br>Formation IT Start</td>
+							<tr>
+								<td class="date">2015-2018<br>Pruillé-le-Chétif </td>
+								<td><strong>St-Joseph La Salle</strong><br>Bac Professionnel Electrotechnique</td>
+							</tr>
+						</table>
+				</section>
+				<section class="section">
+					<h2><img src="svg/briefcase-solid.svg" class="icon"> EXPÉRIENCE PROFESSIONNELLE</h2>
+					<p class="line">.</p>
+					<table>
+						<tr>
+							<td class="date">Mai-Juillet 2019<br>Nantes</td>
+							<td><strong>PROMAN</strong><br>
+							Interimaire en Manutention</td>
+						</tr>
+						<tr>
+							<td class="date">Novembre-Decembre 2017<br>Le Mans</td>
+							<td><strong>LE MANS METROPOLE</strong><br>
+							Stagiaire Electrotechnique</td>
+						</tr>
+						<tr>
+							<td class="date">Mai-Juin 2017<br>Le Mans</td>
+							<td><strong>SYGMATEL</strong><br>
+							Stagiaire Electrotechnique</td>
+						</tr>
+						<tr>
+							<td class="date">Mars 2016<br>Changé</td>
+							<td><strong>ENGIE HOME SERVICES</strong><br>
+							Stagiaire Plomberie</td>
+						</tr>
+						<tr>
+							<td class="date">Juin 2015<br>Le Mans</td>
+							<td><strong>VALORYS MEDIA</strong><br>
+							Stagiaire Développeur Web</td>
+						</tr>
+					</table>
 				
-					<h2>EXPÉRIENCE PROFESSIONNELLE</h2>
-					<ul>
-						<li><strong>Mai-Juillet 2019</strong> : Missions d'intérim en Manutention par Proman</li>
-						<li><strong>Novembre-Decembre 2017</strong> : Stage pratique en Electrotechnique à Le Mans Métropole</li>
-						<li><strong>Mai-Juin 2017</strong> : Stage pratique en Electrotechnique à Sygmatel</li>
-						<li><strong>Mars 2016</strong> : Stage pratique en Plomberie à Engie Home Services</li>
-						<li><strong>Juin 2015</strong> : Stage découverte développeur web à Valorys Media</li>
-					</ul>
-				
-					<h2>COMPÉTENCES</h2>
+				</section>
+
+				<section class="section">
+					<h2><i class="fas fa-pencil-ruler"></i> COMPÉTENCES</h2>
+					<p class="line">.</p>
 					<ul>
 							<li>HTML5</li>
 							<li>CSS3</li>
 							<li>JavaScript</li>
 					</ul>
 				</section>
+				
 			</div>
 		</div>
 	</body>
