@@ -1,7 +1,7 @@
 #cv
 {
 	font-family: arial;
-	width: 900px;
+	width: 850px;
 	display: flex;
 	flex-wrap: nowrap;
 	border: 1px;
@@ -46,7 +46,8 @@
 
 #contenu
 {
-	height:100%;
+	height: 100%;
+	width: 65%;
 	display: flex;
 	flex-direction: column;
 }
@@ -73,7 +74,7 @@
 {
 	width: 100%;
 	position: relative;
-	bottom: 0px;
+	margin-top: 200px;
 }
 
 .icon
@@ -81,9 +82,23 @@
 	height: 20px;
 }
 
+#loisirs .loisiric
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.loisiric
+{
+	margin-left: 8%;
+	margin-right: 8%;
+	font-size: 45px;
+}
+
 h1
 {
 	font-weight: normal;
+	display: inline-block;
 }
 
 h2
@@ -91,26 +106,72 @@ h2
 	font-size: 20px;
 }
 
-.section
+.formation
 {
     display: inline-block;
     vertical-align: top;
     margin-right: 2%;
 }
 
-.line
+.exppro
 {
-	background-color: #feca07;
-	height: 1px;
-	color: white;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2%;
+}
+
+.recommendations
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2%;
+}
+
+
+hr
+{
+	color: #feca07;
 }
 
 .date
 {
-	font-size: 12px;
+	font-size: 0.7em;
 }
 
-#loisirs section {
-    display: flex;
-    justify-content: space-between;
+.soulign
+{
+	text-decoration: underline;
+	text-decoration-color: #feca07;
+}
+
+.dev
+{
+	margin-top: 1px;
+	margin-left: 25px;
+	font-size: 0.5em;
+}
+
+.reco
+{
+	line-height: 3px;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 10%;
+}
+
+.reconame
+{
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+.recodir, .recotel
+{
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+.recomail
+{
+	font-size: 0.9em;
 }
