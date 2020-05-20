@@ -241,14 +241,35 @@
 	{
   		background:#bfd70e;
  	 	border-radius:50%;
+  		width:7px;
+  		height:7px;
+  		margin: 0 auto;
+  		margin-top: 5px;
+  	}
+
+  	.rond1
+  	{
+  		border-radius:50%;
   		width:8px;
   		height:8px;
+  		border: 1px solid #bfd70e;
+  		margin-top: 2px;
   	}
 
   	.rond2
   	{
   		width: 10px;
-  		vertical-align: ;
+  	}
+
+  	.rond3
+  	{
+  		background:#bfd70e;
+ 	 	border-radius:50%;
+  		width:6px;
+  		height:6px;
+  		margin: 0 auto;
+  		margin-top: 1px;
+  		margin-left: 1px;
   	}
 	
 
