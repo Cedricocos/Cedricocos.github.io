@@ -260,6 +260,7 @@
   	.tdpoint
   	{
   		width: 10px;
+  		vertical-align: top;
   	}
 
   	.rond3
@@ -277,8 +278,7 @@
 
 /*RESPONSIVE*/
 
-@media screen and (max-width: 870px)
-{
+@media screen and (max-width: 870px){
 	#cv
 	{
 		border: 0;
