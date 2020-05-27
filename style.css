@@ -84,6 +84,7 @@
 	{
 		font-size: 11px;
 		margin-left: 25px;
+		margin-right: 25px;
 	}
 
 	#loisirs
@@ -237,7 +238,7 @@
 		font-size: 0.8em;
 	}
 
-	.rond
+	.point
 	{
   		background:#bfd70e;
  	 	border-radius:50%;
@@ -256,7 +257,7 @@
   		margin-top: 2px;
   	}
 
-  	.rond2
+  	.tdpoint
   	{
   		width: 10px;
   	}
