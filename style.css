@@ -149,7 +149,8 @@
 
 	table
 	{
-		margin-top: 20px;
+		margin-top: 5px;
+		border-spacing: 15px;
 	}
 
 	.recommendations
@@ -211,11 +212,6 @@
 		font-weight: bold;
 		font-size: 0.9em;
 		margin: 0 auto;
-	}
-
-	.br
-	{
-		color: white;
 	}
 
 	.recodir, .recotel
